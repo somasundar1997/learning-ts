@@ -2,19 +2,19 @@
 
 # Types
 
-# 1. number 
+## 1. number 
     5, 7.6, -10
 
-# 2. string
+## 2. string
     'Hi', "Hi", `Hi`
 
-# 3. boolean
+## 3. boolean
     true or false
 
-## Key Difference
+# Key Difference
 
-# JS Types
+## JS Types
     uses dynamic types which can be resolved at runtime
 
-# TS Types
+## TS Types
     uses static types which can be set during development
