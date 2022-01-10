@@ -18,3 +18,9 @@
 
 ## TS Types
     uses static types which can be set during development
+
+# Type Casing 
+
+In TypeScript, you work with types like string or number all the times.
+Important: It is string and number (etc.), NOT String, Number etc.
+The core primitive types in TypeScript are all lowercase!
