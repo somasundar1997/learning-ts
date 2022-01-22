@@ -13,8 +13,12 @@ function add(n1: number, n2: number, showResult: boolean) {
         return n1 + n2;
     }
 }
-
-const number1 = 5; // 5.0
+// type inference auto detects types 
+// let number1;
+// number1 = '5';
+let number1: number;
+number1 = 5;
+// number1 = '5';
 const number2 = 2.5;
 const printResult = true;
 
