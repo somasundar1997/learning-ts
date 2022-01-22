@@ -1,9 +1,9 @@
-const Person: object = {
+const obj_Person: object = {
     Name: 'Somasundar',
     Age: 24
 };
 
-const Person1: {
+const obj_Person1: {
     Name: string;
     Age: number;
 } = {
@@ -11,14 +11,11 @@ const Person1: {
     Age: 24
 };
 
-const Person2: {
-    Name: string;
-    Age: number;
-} = {
+const obj_Person2 = {
     Name: 'Somasundar',
     Age: 24
 };
 
-// console.log(Person.Name); // will throw typescript error
-console.log(Person1.Name);
-console.log(Person2.Name);
+// console.log(obj_Person.Name); // will throw typescript error
+console.log(obj_Person1.Name);
+console.log(obj_Person2.Name);
