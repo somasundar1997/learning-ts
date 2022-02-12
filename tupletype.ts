@@ -6,7 +6,7 @@
 
 console.log("Hello World");
 
-const Person: {
+const tuple_tuple_Person: {
     Name: string;
     Age: number;
     accounts: string[];
@@ -18,9 +18,9 @@ const Person: {
     role: [1, 'author']
 };
 
-// Person.role[1] = 1; // throws error
-// Person.role = []; // throws error
-// Person.role = [1, 1]; // throws error
-// Person.role = ['author', 1]; // throws error
-// Person.role = ['author', 'author']; // throws error
-// Person.role = ['author', 'author', 'author']; // throws error
+// tuple_tuple_Person.role[1] = 1; // throws error
+// tuple_tuple_Person.role = []; // throws error
+// tuple_tuple_Person.role = [1, 1]; // throws error
+// tuple_tuple_Person.role = ['author', 1]; // throws error
+// tuple_tuple_Person.role = ['author', 'author']; // throws error
+// tuple_tuple_Person.role = ['author', 'author', 'author']; // throws error
